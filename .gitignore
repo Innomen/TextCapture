@@ -1,0 +1,9 @@
+.import/
+.godot/
+*.translation
+*.import
+*.material
+*.md5
+__pycache__/
+*.kra~
+*.blend*
