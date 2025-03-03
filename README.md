@@ -1,26 +1,40 @@
-# TextSnagger for Godot 4
+# TextCapture for Godot 4
 
-Capture visible Godot editor UI text as formatted ASCII - perfect for sharing context with AI or humans!
+**Capture Godot editor text directly - no screenshots or OCR needed.**
+
+## Why TextCapture?
+- 🚫 **No image processing** - Gets text directly from UI controls
+- 📋 **Perfect for AI/LLM context** - Share exact editor state with ChatGPT/Gemini
+- ⚡ **Faster than OCR** - No GPU/ML required
+- 🎮 **Ideal for dev support** - Show UI hierarchy when asking for help
 
 ## Features
 - One-click copy of visible editor text
 - Hierarchical ASCII formatting
-- Supports common controls (Buttons, Labels, Trees, etc)
+- Supports 20+ control types (Buttons, Trees, Editors, etc.)
 - Godot 4.3+ compatible
 
 ## Installation
-1. Copy the `addons/textsnagger` folder to your Godot project
-2. Enable the plugin in `Project > Project Settings > Plugins`
+1. Copy the `addons/TextCapture` folder to your project
+2. Enable in `Project > Project Settings > Plugins`
 
 ## Usage
-1. Look for the "Copy UI Text" button in the Godot toolbar
-2. Click it - text is copied to clipboard
-3. Paste anywhere (Ctrl+V)
+1. Click the 📋 button in Godot\'s toolbar
+2. Paste anywhere (Ctrl+V) to share:
+```text
 
-## Example Output
-[Toolbar] 2D | 3D | Script | AssetLib | Copy UI Text
-[Scene Tree] Player > CollisionShape3D > MeshInstance3D
-[FileSystem] res://addons/textsnagger/TextSnagger.gd
+[3D Viewport] Forward+ | Player (RigidBody3D)
 
+├─ CollisionShape3D (Sphere)
+
+└─ MeshInstance3D (Sphere.mesh)
+
+[Output] Text copied to clipboard!
+
+```
 ## Contributing
-Report issues or PRs at [github.com/Innomen/godot-textsnagger](https://github.com/Innomen/godot-textsnagger)
+
+Report issues or submit PRs at:
+
+[https://github.com/Innomen/TextCapture](https://github.com/Innomen/TextCapture)
+
