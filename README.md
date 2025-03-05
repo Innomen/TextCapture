@@ -1,6 +1,6 @@
 # TextCapture for Godot 4
 
-Cancleing this, it dosent actually work, only some of the text is catpured and the ai can't spot the problem. It will be less work just to find/make a true screen OCR to ascii translator. Maybe as a plugin for the screen shot utility. /sigh
+Canceling this, it doesn't actually work, only some of the text is captured and the ai can't spot the problem. It will be less work just to find/make a true screen OCR to ascii translator. Maybe as a plugin for the screen shot utility. /sigh
 
 **Capture Godot editor text directly - no screenshots or OCR needed.**
 
